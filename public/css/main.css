@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+  font-family: 'Comfortaa';
+}
+
+.nav {
+  background: #FFFAEA;
+  height: 60px;
+  z-index: 2;
+}
+/* cool */
+.cool {
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  width: 75vw;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 31px 3px rgba(0, 0, 0, 0.25);
+  min-height: calc(100vh - 60px)
+}
+
+.no-margin-banner {
+  width: 100%;
+  height: auto;
+}
+
+.no-margin-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.text-div {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.text-div img {
+  object-fit: cover;
+  width: 400px;
+  height: 100%;
+  display: block;
+}
+.p {
+  width: 100%;
+  font-size: 14px;
+line-height: 16px;
+text-align: justify;
+text-indent: 15px;
+}
+
+.kinda-card {
+  position: relative;
+  z-index: 1;
+  color: #E64C1B;
+  width: 100%;
+  background: #FFFAEA;
+box-shadow: 0px 20px 12px -10px rgb(0 0 0 / 10%), 0px -20px 12px -10px rgb(0 0 0 / 10%);
+padding: 3%;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.heading {
+  margin-top: 40px;
+}
+
+.foot-like {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  background: #01A7E1;
+  color: white;
+  padding: 3% 10%;
+}
+
+.anim-banner {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.anim-banner-bg, .anim-banner-clouds, .anim-banner-up, .anim-banner-down {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  transition-property: revert;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.anim-banner-clouds {
+  height: 115px;
+}
+
+.anim-banner:hover .anim-banner-clouds{
+  top: -10px;
+  transition-property: top;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.anim-banner:hover .anim-banner-up{
+  top: -17px;
+  transition-property: top;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.anim-banner:hover .anim-banner-down{
+  top: 10px;
+  transition-property: top;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.edit-del-icon {
+  float: right;
+}
