@@ -72,13 +72,13 @@ padding: 3%;
 }
 
 .foot-like {
-  position: relative;
+  position: absolute;
   z-index: 0;
   width: 100%;
   background: #01A7E1;
   color: white;
   padding: 3% 10%;
-  align-self: flex-end;
+  bottom: 0;
 }
 
 .anim-banner {
