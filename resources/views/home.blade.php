@@ -69,4 +69,7 @@
                 </div>
 
 </div>
+<div class="foot-like">
+  <h2 class="h2">Желаем удачи в покорении ваших целей – пусть все будет достижимо</h2>
+</div>
 @endsection
