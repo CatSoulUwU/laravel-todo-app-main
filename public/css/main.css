@@ -130,3 +130,12 @@ padding: 3%;
 .edit-del-icon {
   float: right;
 }
+
+@media (max-width: 12450px) {
+.main {
+  width: 85vw;
+  }
+  .text-div img {
+    display: none;
+  }
+}
