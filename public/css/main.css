@@ -78,6 +78,7 @@ padding: 3%;
   background: #01A7E1;
   color: white;
   padding: 3% 10%;
+  align-self: flex-end;
 }
 
 .anim-banner {
