@@ -131,7 +131,7 @@ padding: 3%;
   float: right;
 }
 
-@media (max-width: 12450px) {
+@media (max-width: 1250px) {
 .main {
   width: 85vw;
   }
