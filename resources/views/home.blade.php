@@ -10,7 +10,7 @@
     <img class="anim-banner-clouds" src="{{asset('assets/Frame 3.png')}}" alt="anim-banner">
   </div>
                 <h5 class="card-header">
-                    <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Add Item</a>
+                    <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Добавить задачу!</a>
                 </h5>
                 <div class="card-body">
                     @if (session('status'))
@@ -39,8 +39,8 @@
                     <table class="table table-borderless table-hover">
                         <thead>
                           <tr>
-                            <th scope="col">Current Debts</th>
-                            <th scope="col">Due date</th>
+                            <th scope="col">Текущие задачи</th>
+                            <th scope="col">Дата сдачи</th>
                             <th scope="col"></th>
                           </tr>
                         </thead>
@@ -61,7 +61,7 @@
                                 </tr>
                             @empty
                                 <tr>
-                                    No Items Added!
+                                    Задач пока нет!
                                 </tr>
                             @endforelse
                         </tbody>
