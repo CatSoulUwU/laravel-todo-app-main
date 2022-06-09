@@ -4,7 +4,7 @@
 <div class="container">
 
                 <div class="card-header">
-                    Edit {{ $todo->title }}
+                    Редактировать {{ $todo->title }}
                 </div>
                 <h5 class="card-header">
                     <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Вернуться</a>
