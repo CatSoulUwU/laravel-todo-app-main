@@ -4,7 +4,7 @@
 
 <div class="container">
 <h2>&#8291;</h2>
-                <h2 class="h2 heading">Login</h2>
+                <h2 class="h2 heading">Войти</h2>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
