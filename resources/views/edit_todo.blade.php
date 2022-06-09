@@ -58,7 +58,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="due_date" class="col-form-label text-md-right">Due date</label>
+                            <label for="due_date" class="col-form-label text-md-right">Дата сдачи</label>
 
                                 <input id="due_date" type="datetime-local" class="form-control @error('due_date') is-invalid @enderror" autocomplete="due_date" name="due_date" value="{{ $todo->due_date }}" required>
                         </div>
