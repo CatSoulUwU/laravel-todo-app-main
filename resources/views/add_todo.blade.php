@@ -4,10 +4,10 @@
 <div class="container">
 
                 <div class="card-header">
-                    Add Todo Item
+                    Добавление заметки
                 </div>
                 <h5 class="card-header">
-                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Go Back</a>
+                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Вернуться</a>
                 </h5>
 
                 <div class="card-body">
@@ -33,7 +33,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="title" class="col-form-label text-md-right">Title</label>
+                            <label for="title" class="col-form-label text-md-right">Краткое описание</label>
 
                             <input id="title" type="title" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('email') }}" required autocomplete="title" autofocus>
 
@@ -45,7 +45,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="description" class="col-form-label text-md-right">Description</label>
+                            <label for="description" class="col-form-label text-md-right">Подробности</label>
 
                             <textarea name="description" id="description" cols="30" rows="10" class="form-control @error('password') is-invalid @enderror" autocomplete="description" value="{{ old('description') }}"></textarea>
 
@@ -56,7 +56,7 @@
                             @enderror
                         </div>
                         <div class="form-group row">
-                            <label for="due-date" class="col-form-label text-md-right">Due date</label>
+                            <label for="due-date" class="col-form-label text-md-right">Дата сдачи</label>
 
                             <input type="datetime-local" class="form-control @error('title') is-invalid @enderror" id="due_date" name="due-date" value="{{ old('due_date') }}" autocomplete="due_date" required>
 
@@ -66,7 +66,7 @@
                                 <input class="form-check-input" type="checkbox" name="completed" id="completed" value="{{ old('completed')}}">
 
                                 <label class="form-check-label" for="completed">
-                                    Completed?
+                                    Сделано?
                                 </label>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    Submit
+                                    Добавить
                                 </button>
                             </div>
                         </div>
