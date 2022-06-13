@@ -22,7 +22,7 @@
     <style>
     .navbar-brand-logo {
     min-height: auto;
-    min-width: 50%;}
+    max-width: 50%;}
     </style>
 </head>
 <body>
