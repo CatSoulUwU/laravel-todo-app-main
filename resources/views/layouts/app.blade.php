@@ -20,9 +20,10 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
+    @media screen and (max-width:800px){
     .navbar-brand-logo {
     min-height: auto;
-    max-width: 50%;}
+    max-width: 70%;}}
     </style>
 </head>
 <body>
